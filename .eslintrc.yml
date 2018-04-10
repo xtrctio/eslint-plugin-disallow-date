@@ -1,0 +1,16 @@
+extends:
+  - google
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+  emcaFeatures:
+    modules: true
+rules:
+  switch-colon-spacing: 0
+  max-len:
+    - 2
+    - 120
+  quotes:
+    - 2
+    - single
+    - allowTemplateLiterals: true
