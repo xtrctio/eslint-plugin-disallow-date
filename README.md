@@ -20,17 +20,18 @@
 
 **Note:**
 If you installed ESLint globally (using the `-g` flag) then you must also
-install `eslint-plugin-disallow-date` globally.
+install `@miovision/eslint-plugin-disallow-date` globally.
 
 ## Usage
 
-Add `disallow-date` to the plugins section of your `.eslintrc` configuration
-file. You can omit the `eslint-plugin-` prefix:
+Add `@miovision/disallow-date` to the plugins section of your `.eslintrc`
+configuration file. You can omit the `eslint-plugin-` prefix, but must include
+the `@miovision` package scope:
 
 ```json
 {
     "plugins": [
-        "disallow-date"
+        "@miovision/disallow-date"
     ]
 }
 ```
@@ -40,12 +41,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "disallow-date/no-new-date": 2,
-        "disallow-date/no-static-date": 2,
-        "disallow-date/no-to-date": 2,
+        "@miovision/disallow-date/no-new-date": 2,
+        "@miovision/disallow-date/no-static-date": 2,
+        "@miovision/disallow-date/no-to-date": 2,
     }
 }
 ```
+
+Run the linter with `npx eslint --ext=js .`
 
 ## Supported Rules
 
