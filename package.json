@@ -1,6 +1,6 @@
 {
   "name": "@miovision/eslint-plugin-disallow-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ESLint plugin to disallow usage of JavaScript Date objects.",
   "license": "MIT",
   "keywords": [
