@@ -1,5 +1,5 @@
 {
-  "name": "@miovision/eslint-plugin-disallow-date",
+  "name": "@extrctio/eslint-plugin-disallow-date",
   "version": "1.0.1",
   "description": "An ESLint plugin to disallow usage of JavaScript Date objects.",
   "license": "MIT",
@@ -31,12 +31,11 @@
     "url": "https://github.com/miovision/eslint-plugin-disallow-date/issues"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "eslint-config-google": "^0.9.1",
-    "mocha": "^3.1.2"
+    "eslint": "^5.15.1",
+    "mocha": "^6.0.2"
   },
   "engines": {
     "node": ">=6.0.0"

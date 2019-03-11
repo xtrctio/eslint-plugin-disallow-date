@@ -1,7 +1,5 @@
 # eslint-plugin-disallow-date
 
-[![Build Status](https://travis-ci.org/github/miovision.svg?branch=master)](https://travis-ci.org/github/miovision)
-
 >   An ESLint plugin to disallow usage of JavaScript Date objects.
 
 ## Installation
@@ -12,26 +10,26 @@
     $ npm i -D eslint
     ```
 
-2.  Install `@miovision/eslint-plugin-disallow-date`:
+2.  Install `@xtrctio/eslint-plugin-disallow-date`:
 
     ```
-    $ npm i -D @miovision/eslint-plugin-disallow-date
+    $ npm i -D @xtrctio/eslint-plugin-disallow-date
     ```
 
 **Note:**
 If you installed ESLint globally (using the `-g` flag) then you must also
-install `@miovision/eslint-plugin-disallow-date` globally.
+install `@xtrctio/eslint-plugin-disallow-date` globally.
 
 ## Usage
 
-Add `@miovision/disallow-date` to the plugins section of your `.eslintrc`
+Add `@xtrctio/disallow-date` to the plugins section of your `.eslintrc`
 configuration file. You can omit the `eslint-plugin-` prefix, but must include
-the `@miovision` package scope:
+the `@xtrctio` package scope:
 
 ```json
 {
     "plugins": [
-        "@miovision/disallow-date"
+        "@xtrctio/disallow-date"
     ]
 }
 ```
