@@ -1,5 +1,5 @@
 {
-  "name": "@extrctio/eslint-plugin-disallow-date",
+  "name": "@xtrctio/eslint-plugin-disallow-date",
   "version": "1.0.1",
   "description": "An ESLint plugin to disallow usage of JavaScript Date objects.",
   "license": "MIT",
@@ -16,9 +16,12 @@
     "start": "npm run lint && npm test",
     "test": "npx mocha tests --recursive"
   },
+  "files": [
+    "lib/**/*.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/miovision/eslint-plugin-disallow-date.git"
+    "url": "git://github.com/xtrctio/eslint-plugin-disallow-date.git"
   },
   "contributors": [
     {
@@ -28,7 +31,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/miovision/eslint-plugin-disallow-date/issues"
+    "url": "https://github.com/xtrctio/eslint-plugin-disallow-date/issues"
   },
   "dependencies": {
     "requireindex": "^1.2.0"
